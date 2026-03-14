@@ -156,7 +156,7 @@ body {
     justify-content: end;
 }
 .abt-main{
-    font-family: 'main';
+    font-family: 'mainlight';
     font-size: 45px;
     letter-spacing: -3px;
     border-bottom: 1px solid black;
@@ -205,7 +205,7 @@ body {
 }
 
 .werte-wrapper-item{
-    font-family: 'main';
+    font-family: 'mainlight';
     font-size: 45px;
     border-bottom: 1px solid black;
     letter-spacing: -3px;
