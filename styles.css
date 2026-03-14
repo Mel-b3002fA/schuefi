@@ -30,13 +30,14 @@ body {
 }
 
 .header{
-   width: 98vw;
-   margin: 0;
-   padding-left: 8px;
+   width: 100vw;
+   background-color: rgb(232, 232, 232);
+   margin-top:0px;
+   padding-left: 23px;
 }
 
 .header-wrapper1{
-   width: 100%;
+   width: 96.2%;
    display: flex;
    justify-content: space-between;
 }
@@ -88,7 +89,7 @@ body {
 }
 
 .main{
-    background-color: rgb(230, 55, 16);
+    background-color: rgb(230, 55, 16) /* rgb(122, 199, 21) */ /* rgb(88, 68, 241) */;
     width: 100vw;
     height: 100vh;
 }
