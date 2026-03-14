@@ -22,6 +22,9 @@
 
 html{
     overflow-x: hidden;
+  overflow-y: scroll;
+  scrollbar-color: rgb(73, 73, 73) rgb(0, 0, 0);
+  scrollbar-width: 30px;
 }
 
 body {
@@ -37,7 +40,7 @@ body {
 }
 
 .header-wrapper1{
-   width: 96.2%;
+   width: 96.7%;
    display: flex;
    justify-content: space-between;
 }
@@ -131,7 +134,11 @@ body {
     letter-spacing: -0.3px;
     font-family: poppins;
     width: 31%;
-    padding-right: 30px;
+    padding-right: 21.1px;
     padding-top: 25px;
     text-align: justify;
+}
+
+.abt{
+    background-color: aliceblue;
 }
