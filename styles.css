@@ -1,0 +1,136 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    border-style: none;
+}
+
+
+@font-face {
+  font-family: 'main';
+  src: url('./fonts/ITC\ Avant\ Garde\ Gothic\ Bold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'mainlight';
+  src: url('./fonts/ITC\ Avant\ Garde\ Gothic\ Std\ Medium.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+html{
+    overflow-x: hidden;
+}
+
+body {
+  font-family: 'MyFont', sans-serif;
+  margin: 0 auto;
+}
+
+.header{
+   width: 98vw;
+   margin: 0;
+   padding-left: 8px;
+}
+
+.header-wrapper1{
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+}
+
+.header-wrapper2{
+   width: 38%;
+   height: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.header-name{
+    font-family: 'mainlight', sans-serif;
+    font-size: 26px;
+    font-weight: 200;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    letter-spacing: -1px;
+}
+
+.header-list{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-list>li{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.header-btn{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(15, 15, 15);
+    border-radius: 27px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 8.7px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height: 40px;
+    border: 1px solid black;
+    
+}
+
+.main{
+    background-color: rgb(230, 55, 16);
+    width: 100vw;
+    height: 100vh;
+}
+
+.main-name{
+    font-family: 'mainlight', sans-serif;
+    margin-top: 0px;
+    font-size: 310px;
+    letter-spacing: -30px;
+    margin-bottom: 0px;
+
+    padding-bottom: 0px;
+    line-height: 50%;
+}
+
+.main-div{
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    gap: 100px;
+    padding-top: 140px;
+    padding-bottom: 30px;
+}
+
+.main-para-wrapper{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 98%;
+    display: flex;
+    justify-content: end;
+
+}
+
+.main-para{
+    font-size: 15px;
+    letter-spacing: -0.3px;
+    font-family: poppins;
+    width: 31%;
+    padding-right: 30px;
+    padding-top: 25px;
+    text-align: justify;
+}
