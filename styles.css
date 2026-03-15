@@ -426,6 +426,10 @@ body {
     margin-top: 80vh;
 }
 
+.footer-tshirt{
+    margin-top: 0vh;
+}
+
 
 .footer-wrapper1{
     width: 98%;
@@ -553,3 +557,8 @@ body {
    color: rgb(230, 55, 16);
    text-transform: uppercase;
 }
+
+.footer-tshirt{
+    margin-top: 1px;
+}
+
