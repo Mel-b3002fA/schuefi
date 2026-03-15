@@ -179,6 +179,7 @@ body {
    display: flex;
    justify-content: center;
    flex-direction: column;
+   padding-bottom: 120px;
 }
 
 .werte-main{
@@ -378,3 +379,43 @@ body {
     border-bottom: 1px solid rgb(230, 55, 16);
 }
 
+
+.footer{
+    width: 100vw;
+    height: fit-content;
+    background-color: rgb(230, 55, 16);
+}
+
+
+.footer-wrapper1{
+    width: 98%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer-wrapper2{
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 30px;
+     font-family: 'mainlight';
+    font-size: 45px;
+    letter-spacing: -3px;
+    border-bottom: 1px solid black;
+}
+
+.footer-wrapper3{
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 30px;
+     font-family: poppins;
+    font-size: 15px;
+    letter-spacing: -1px;
+    display: flex;
+    justify-content: end;
+}
+
+.footer-wrapper3>div{
+    width: 60%;
+    display: flex;
+    margin-top: 13px;
+    justify-content: space-between;
+}
