@@ -188,7 +188,7 @@ body {
     letter-spacing: -2px;
     width: 100%;
     margin-left: 20vw;
-    
+
 }
 
 .werte-wrapper1{
@@ -229,7 +229,8 @@ body {
 
 .food-main{
     background-color: rgb(230, 55, 16);
-    height: 70vh;
+    height: 78vh;
+    width: 100vw;
 }
 
 .main-header-wrapper{
@@ -254,6 +255,34 @@ body {
 }
 
 
+.kleidung-para-wrapper{
+    width: 100vw;
+    display: flex;
+    justify-content: end;
+}
+
+.kleidung-main-para{
+     font-size: 15px;
+    letter-spacing: -0.3px;
+    font-family: poppins;
+    width: 31%;
+    padding-right: 21.1px;
+    padding-top: 25px;
+    text-align: justify;
+}
+
+.kleidung-wrapper{
+    margin-top: 90px;
+}
+
+.kleidung-oberteile{
+    font-family: poppins;
+    font-size: 26px;
+    letter-spacing: -2px;
+    width: 100%;
+    margin-left: 20px;
+    height: fit-content;
+}
 
 .work{
     width: 100vw;
@@ -315,11 +344,16 @@ body {
     margin: 0px;
 }
 
-.work-btn-wrapper{
+.work-btn-wrapper1{
     width: 98vw;
     display: flex;
     justify-content: flex-end;
-    margin-top: 50px;
+}
+
+.work-btn-wrapper2{
+    width: 120px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .work-btn1{
@@ -389,7 +423,7 @@ body {
 }
 
 .footer-kleidung{
-    margin-top: 70vh;
+    margin-top: 100vh;
 }
 
 
