@@ -185,7 +185,7 @@ body {
 .werte-main{
     font-family: poppins;
     font-size: 26px;
-    letter-spacing: -3px;
+    letter-spacing: -2px;
     width: 60%;
     margin-left: 43vw;
 }
@@ -209,7 +209,7 @@ body {
     font-family: 'mainlight';
     font-size: 45px;
     border-bottom: 1px solid black;
-    letter-spacing: -3px;
+    letter-spacing: -2px;
     display: flex;
     justify-content: space-between;
     align-items: start;
