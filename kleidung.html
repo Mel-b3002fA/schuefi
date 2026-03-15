@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Climate+Crisis:YEAR@1979&family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-wrapper1">
+            <div class="header-wrapper2">
+                <p class="header-name"><a href="./index.html">SCH.FI</a></p>
+                <ul class="header-list">
+                    <li><a href="./kleidung.html">Kleidung</a></li>
+                    <li><a href="./food.html">Food</a></li>
+                    <li><a href="./aktuelles.html">Aktuelles</a></li>
+                </ul>
+            </div>
+            <button class="header-btn"><a href="https://www.jahngymnasium-greifswald.de/wp-content/uploads/2025/11/Bestellformular-und-Produktkatalog-November-2025-1.pdf" target="_blank" class="header-btn">Zum Bestellformular</a></button>
+        </div>
+    </header>
+     <section class="food-main">
+        <div class="main-header-wrapper">
+            <p class="main-header">KLEIDUNG</p>
+        </div>
+
+         <div class="work-btn-wrapper">
+            <button class="work-btn1"><</button>
+            <button class="work-btn2">></button>
+        </div>
+        <ul class="work-list">
+            
+            <li class="work-list-item">
+                <img src="./img/wine.png" alt="" class="work-img">
+                <div class="work-list-item-div1">
+                    <p class="work-list-item-number">( 001 )</p>
+                    <div class="work-list-item-div2">
+                        <p class="work-list-item-name">Gold idol wine</p>
+                    </div>
+                    <p class="work-list-item-para">It's not the gold that matters</p>
+                </div>
+            </li>  
+
+             <li class="work-list-item">
+                <img src="./img/WhatsApp Image 2026-02-22 at 15.18.39.jpeg" alt="" class="work-img">
+                <div class="work-list-item-div1">
+                    <p class="work-list-item-number">( 002 )</p>
+                    <div class="work-list-item-div2">
+                        <p class="work-list-item-name">Campana coffee</p>
+                    </div>
+                    <p class="work-list-item-para">Bell-issimo!</p>
+                </div>
+            </li>
+            
+            <li class="work-list-item">
+                <img src="./img/btn.png" alt="" class="work-img">
+                <div class="work-list-item-div1">
+                    <p class="work-list-item-number">( 003 )</p>
+                    <div class="work-list-item-div2">
+                        <p class="work-list-item-name">Studio Sarcoma</p>
+                    </div>
+                    <p class="work-list-item-para">From Brussels with love</p>
+                </div>
+            </li>
+
+        </ul>
+    </section>
+
+    <section>
+
+        
+    </section>
+
+<script>
+const list = document.querySelector('.work-list');
+const btnLeft = document.querySelector('.work-btn1');
+const btnRight = document.querySelector('.work-btn2');
+
+const scrollAmount = 600;
+
+btnLeft.addEventListener('click', () => {
+  list.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+});
+
+btnRight.addEventListener('click', () => {
+  list.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+});
+</script>
+
+</body>
+</html>
