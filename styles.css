@@ -70,7 +70,7 @@ body {
 
 .header-list>li{
     font-family: Poppins;
-    font-weight: 600;
+    font-weight: 300;
     font-size: 15px;
 }
 
@@ -213,6 +213,7 @@ body {
     justify-content: space-between;
     align-items: start;
     margin-top: 40px;
+    text-transform: uppercase;
 }
 
 .werte-wrapper-item-para{
@@ -221,4 +222,5 @@ body {
     font-family: poppins;
     width: 40%;
     text-align: end;
+    margin-top: 0px;
 }
